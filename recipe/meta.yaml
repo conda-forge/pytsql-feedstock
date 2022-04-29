@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -20,7 +20,7 @@ requirements:
     - python >=3.7
     - flit-core >=3.2,<4
   run:
-    - antlr4-python3-runtime >=4.9.2
+    - antlr4-python3-runtime =4.9.2
     - pyodbc >=4.0.30
     - python >=3.7
     - sqlalchemy >=1.4
