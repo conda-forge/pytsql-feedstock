@@ -18,9 +18,10 @@ requirements:
   host:
     - pip
     - python >=3.7
-    - flit-core >=3.2,<4
+    - setuptools
+    - setuptools_scm
   run:
-    - antlr4-python3-runtime =4.9.2
+    - antlr-python-runtime =4.9.2
     - pyodbc >=4.0.30
     - python >=3.7
     - sqlalchemy >=1.4
