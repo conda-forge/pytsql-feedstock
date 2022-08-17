@@ -18,13 +18,13 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - pip
-    - python >=3.7
+    - python
     - setuptools
     - setuptools_scm
   run:
     - antlr-python-runtime =4.9.2
     - pyodbc >=4.0.30
-    - python >=3.7
+    - python
     - sqlalchemy >=1.4
 
 test:
