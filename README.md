@@ -271,4 +271,5 @@ Feedstock Maintainers
 
 * [@ivergara](https://github.com/ivergara/)
 * [@kklein](https://github.com/kklein/)
+* [@svengiegerich](https://github.com/svengiegerich/)
 
