@@ -26,7 +26,6 @@ requirements:
     - setuptools_scm
   run:
     - antlr4-python3-runtime =4.11.1
-    - speedy-antlr-tool =1.4.1
     - pyodbc >=4.0.30
     - python
     - sqlalchemy >=1.4
