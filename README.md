@@ -1,11 +1,11 @@
-About pytsql
-============
+About pytsql-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytsql-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/pytsql/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytsql-feedstock/blob/main/LICENSE.txt)
 
 Summary: pytsql allows to run mssql scripts, typically run via GUIs, via CLI.
 
