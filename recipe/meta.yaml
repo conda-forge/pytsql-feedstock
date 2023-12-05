@@ -12,7 +12,7 @@ source:
 build:
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
-  skip: true  # [py<37]
+  skip: true  # [py<38]
 
 requirements:
   build:
@@ -25,7 +25,7 @@ requirements:
     - setuptools
     - setuptools_scm
   run:
-    - antlr4-python3-runtime =4.11.1
+    - antlr4-python3-runtime =4.13.1
     - pyodbc >=4.0.30
     - python
     - sqlalchemy >=1.4
