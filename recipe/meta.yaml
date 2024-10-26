@@ -30,7 +30,6 @@ requirements:
     - pyodbc >=4.0.30
     - python
     - sqlalchemy >=1.4
-    - setuptools
 
 test:
   imports:
