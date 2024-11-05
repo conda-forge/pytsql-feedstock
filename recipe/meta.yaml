@@ -1,5 +1,5 @@
 {% set name = "pytsql" %}
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytsql-{{ version }}.tar.gz
-  sha256: baf175f50a9e41285855ca1f563310532a78cdd1cd38762f1a81a5502de8256a
+  sha256: 76c0c4751e091d32c21aba95e7293d077cf365ed3cebfc64afb219220f293c71
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
@@ -26,10 +26,11 @@ requirements:
     - setuptools
     - setuptools_scm
   run:
-    - antlr4-python3-runtime =4.13.1
+    - antlr4-python3-runtime >=4.10,<4.14
     - pyodbc >=4.0.30
     - python
     - sqlalchemy >=1.4
+    - click
 
 test:
   imports:
