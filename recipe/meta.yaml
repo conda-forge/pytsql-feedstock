@@ -28,7 +28,7 @@ requirements:
   run:
     - antlr4-python3-runtime >=4.10,<4.14
     - pyodbc >=4.0.30
-    - python >=3.9
+    - python
     - sqlalchemy >=1.4
     - click
 
