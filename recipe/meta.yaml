@@ -26,10 +26,11 @@ requirements:
     - setuptools
     - setuptools_scm
   run:
-    - antlr4-python3-runtime =4.13.1
+    - antlr4-python3-runtime >=4.10,<4.14
     - pyodbc >=4.0.30
-    - python
+    - python >=3.9
     - sqlalchemy >=1.4
+    - click
 
 test:
   imports:
