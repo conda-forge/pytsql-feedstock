@@ -1,13 +1,13 @@
 {% set name = "pytsql" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytsql-{{ version }}.tar.gz
-  sha256: 76c0c4751e091d32c21aba95e7293d077cf365ed3cebfc64afb219220f293c71
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytsql-{{ version }}.tar.gz
+  sha256: b3e3a43cccb90393a23847db62f4f6982e62c46ef8ba1c34ac36eb8438e84fc5
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
