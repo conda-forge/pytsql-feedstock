@@ -6,12 +6,12 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytsql-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pytsql-{{ version }}.tar.gz
   sha256: b3e3a43cccb90393a23847db62f4f6982e62c46ef8ba1c34ac36eb8438e84fc5
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
   skip: true  # [py<38]
 
 requirements:
